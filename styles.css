@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(135deg, #eb8000, #96eb00);
+    color: #333;
+}
+
+.registration-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 700px;
+    overflow-y: auto;
+    max-height: 85vh;
+    border-top: 8px solid #1a237e;
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ff4081;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"],
+.registration-form input[type="number"],
+.registration-form input[type="date"],
+.registration-form input[type="tel"],
+.registration-form input[type="url"],
+.registration-form input[type="file"],
+.registration-form textarea,
+.registration-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: 14px;
+    background-color: #fafafa;
+}
+
+.registration-form input:focus,
+.registration-form textarea:focus,
+.registration-form select:focus {
+    border-color: #ff4081;
+    box-shadow: 0 0 8px rgba(255, 64, 129, 0.2);
+    outline: none;
+}
+
+.registration-form textarea {
+    resize: vertical;
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 14px;
+    background-color: #1a237e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.registration-form button:hover {
+    background-color: #283593;
+}
+
+.registration-form .form-group {
+    margin-bottom: 20px;
+}
+
+.registration-form .form-group.inline {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.registration-form .form-group.inline .form-control {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+    margin-top: 20px;
+}
