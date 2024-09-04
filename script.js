@@ -15,7 +15,7 @@ function validateForm() {
     var retypePassword = document.getElementById("retype_password").value;
     var securityAnswer = document.getElementById("security_answer").value;
 
-    if (teamName == "" || college == "" || leaderName == "" || leaderPhone == "" || leaderEmail == "" || members == "" || problemStatement == "" || solutionOverview == "" || mentorName == "" || mentorEmail == "" || mentorPhone == "" || mentorCollege == "" || password == "" || retypePassword == "" || securityAnswer == "") {
+    if (teamName === "" || college === "" || leaderName === "" || leaderPhone === "" || leaderEmail === "" || members === "" || problemStatement === "" || solutionOverview === "" || mentorName === "" || mentorEmail === "" || mentorPhone === "" || mentorCollege === "" || password === "" || retypePassword === "" || securityAnswer === "") {
         alert("All fields must be filled out");
         return false;
     }
