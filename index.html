@@ -49,7 +49,48 @@
                 <input type="number" id="members" name="members" min="2" max="6" placeholder="2-6">
             </div>
         </div>
-    
+        <!-- Add these fields if needed -->
+        <div class="form-group">
+            <label for="problem_statement">Problem Statement</label>
+            <textarea id="problem_statement" name="problem_statement" placeholder="Describe the problem statement"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="solution_overview">Solution Overview</label>
+            <textarea id="solution_overview" name="solution_overview" placeholder="Give an overview of your solution"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="mentor_name">Mentor's Name</label>
+            <input type="text" id="mentor_name" name="mentor_name" placeholder="Mentor's Name">
+        </div>
+        <div class="form-group inline">
+            <div class="form-control">
+                <label for="mentor_email">Mentor's Email</label>
+                <input type="email" id="mentor_email" name="mentor_email" placeholder="Mentor's Email">
+            </div>
+            <div class="form-control">
+                <label for="mentor_phone">Mentor's Phone</label>
+                <input type="tel" id="mentor_phone" name="mentor_phone" placeholder="+91">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="mentor_college">Mentor's College</label>
+            <input type="text" id="mentor_college" name="mentor_college" placeholder="Mentor's College">
+        </div>
+        <!-- Password fields -->
+        <div class="form-group inline">
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter a password">
+            </div>
+            <div class="form-control">
+                <label for="retype_password">Retype Password</label>
+                <input type="password" id="retype_password" name="retype_password" placeholder="Retype your password">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="security_answer">Security Question: What is your favorite color?</label>
+            <input type="text" id="security_answer" name="security_answer" placeholder="Security answer">
+        </div>
 
         <button type="submit">Register</button>
     </form>
